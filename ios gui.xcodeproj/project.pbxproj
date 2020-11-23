@@ -16,6 +16,9 @@
 		C7BCE33F2568EB8D00AB9B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BCE33D2568EB8D00AB9B69 /* LaunchScreen.storyboard */; };
 		C7BCE34A2568EB8D00AB9B69 /* ios_guiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE3492568EB8D00AB9B69 /* ios_guiTests.swift */; };
 		C7BCE3552568EB8D00AB9B69 /* ios_guiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE3542568EB8D00AB9B69 /* ios_guiUITests.swift */; };
+		C7BCE3652568FB3100AB9B69 /* MyStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BCE3642568FB3100AB9B69 /* MyStoryBoard.storyboard */; };
+		C7BCE3672569110600AB9B69 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7BCE3662569110600AB9B69 /* ProfileViewController.xib */; };
+		C7BCE3692569113400AB9B69 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BCE3682569113400AB9B69 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		C7BCE3502568EB8D00AB9B69 /* ios guiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios guiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BCE3542568EB8D00AB9B69 /* ios_guiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_guiUITests.swift; sourceTree = "<group>"; };
 		C7BCE3562568EB8D00AB9B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7BCE3642568FB3100AB9B69 /* MyStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyStoryBoard.storyboard; sourceTree = "<group>"; };
+		C7BCE3662569110600AB9B69 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		C7BCE3682569113400AB9B69 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		C7BCE32E2568EB8A00AB9B69 /* ios gui */ = {
 			isa = PBXGroup;
 			children = (
+				C7BCE3642568FB3100AB9B69 /* MyStoryBoard.storyboard */,
 				C7BCE32F2568EB8A00AB9B69 /* AppDelegate.swift */,
 				C7BCE3312568EB8A00AB9B69 /* SceneDelegate.swift */,
 				C7BCE3332568EB8A00AB9B69 /* ViewController.swift */,
@@ -109,6 +116,8 @@
 				C7BCE33D2568EB8D00AB9B69 /* LaunchScreen.storyboard */,
 				C7BCE3402568EB8D00AB9B69 /* Info.plist */,
 				C7BCE3382568EB8A00AB9B69 /* ios_gui.xcdatamodeld */,
+				C7BCE3662569110600AB9B69 /* ProfileViewController.xib */,
+				C7BCE3682569113400AB9B69 /* ProfileViewController.swift */,
 			);
 			path = "ios gui";
 			sourceTree = "<group>";
@@ -236,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7BCE33F2568EB8D00AB9B69 /* LaunchScreen.storyboard in Resources */,
+				C7BCE3652568FB3100AB9B69 /* MyStoryBoard.storyboard in Resources */,
+				C7BCE3672569110600AB9B69 /* ProfileViewController.xib in Resources */,
 				C7BCE33C2568EB8D00AB9B69 /* Assets.xcassets in Resources */,
 				C7BCE3372568EB8A00AB9B69 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +275,7 @@
 			files = (
 				C7BCE3342568EB8A00AB9B69 /* ViewController.swift in Sources */,
 				C7BCE3302568EB8A00AB9B69 /* AppDelegate.swift in Sources */,
+				C7BCE3692569113400AB9B69 /* ProfileViewController.swift in Sources */,
 				C7BCE3322568EB8A00AB9B69 /* SceneDelegate.swift in Sources */,
 				C7BCE33A2568EB8A00AB9B69 /* ios_gui.xcdatamodeld in Sources */,
 			);
